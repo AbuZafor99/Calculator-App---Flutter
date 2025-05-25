@@ -1,28 +1,32 @@
-🧮 My Calculator App
+🧮 Flutter Calculator App
 
-A simple, functional calculator app built with Flutter, capable of performing basic arithmetic operations such as addition, subtraction, multiplication, division, and modulus. It features a clean user interface and supports decimal input, formatted output, and operation history display.
+A simple and elegant calculator app built using **Flutter**, supporting basic arithmetic operations with a clean UI layout and responsive design.
 
-📱 Screenshot
+---
 
-✨ Features
-	•	Basic arithmetic operations: +, -, *, /, %
-	•	Clear (C) and backspace (X) functions
-	•	Decimal number support
-	•	Formatted result display (no trailing .0 for integers)
-	•	Operation history preview above the result
-	•	Responsive and visually clean button layout
+## 📸 Screenshot
 
-🛠️ Technologies Used
-	•	Flutter: UI toolkit for building natively compiled applications
-	•	Dart: Language used for Flutter development
-	•	Custom buildButton widget for reusable buttons
+![Calculator Screenshot](https://drive.google.com/uc?export=view&id=1-atdqLWqW4N1O7H0nepXUjW1AJ3Pqw7R)
 
-📦 Installation & Run
-	1.	Clone the repository
+---
 
-git clone https://github.com/yourusername/calculator_app.git
-cd calculator_app
+## 🚀 Features
 
+- Basic arithmetic operations: **+**, **−**, **×**, **÷**, **%**
+- Supports decimal values
+- Smart formatting: displays integers cleanly without `.0`
+- Operation history shown at the top
+- Includes Clear (`C`) and Backspace (`X`) buttons
+- Responsive layout using custom `buildButton` widget
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AbuZafor99/Calculator-App---Flutter.git
+   cd Calculator-App---Flutter
 
 	2.	Install dependencies
 
@@ -35,39 +39,44 @@ flutter run
 
 
 
-📁 File Structure
-	•	lib/
-	•	main.dart: Main entry point with Calculator_app widget
-	•	widget/buildButton.dart: Custom widget for calculator buttons
+⸻
 
-🔧 Key Functions
+🛠️ Project Structure
 
-buttonPress(String value)
+lib/
+├── main.dart               # Main calculator app
+└── widget/
+    └── buildButton.dart    # Custom widget for calculator buttons
 
-Handles logic for:
-	•	Numeric input
-	•	Operators
-	•	Special keys (C, X, ., =)
 
-_formatOutput(String result)
+⸻
 
-Cleans up the output for readability:
-	•	Removes .0 from integers
-	•	Limits decimals to 2 places
+💡 Example Usage
 
-🧪 Example Expression
+Expression: 5 + 9 * 2 - 8 / 2 % 2
 
-5.0 + 9.0 * 2.0 - 8.0 / 2.0 % 2.0
+⚠️ This calculator evaluates one operation at a time and does not yet follow order of operations (PEMDAS). It works more like a basic step-by-step calculator.
 
-The app currently calculates one binary operation at a time and does not parse full expressions in one go.
+⸻
 
-🚀 Future Improvements
-	•	Support for full expression evaluation with order of operations
-	•	Parentheses support
-	•	Scientific mode
-	•	History log with scrollable past results
+✅ Future Improvements
+	•	Support full expression parsing with proper operator precedence
+	•	Add parentheses () support
+	•	Scrollable history of previous calculations
+	•	Dark/light theme toggle
+	•	Scientific calculator mode
+
+⸻
+
+👨‍💻 Author
+
+Abu Zafor
+🔗 GitHub Profile
+
+⸻
 
 📄 License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
 
+Feel free to fork, star, or contribute to this project!
