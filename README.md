@@ -5,8 +5,7 @@ A simple and elegant calculator app built using **Flutter**, supporting basic ar
 ---
 
 ## 📸 Screenshot
-
-![Calculator Screenshot](https://drive.google.com/uc?export=view&id=1-atdqLWqW4N1O7H0nepXUjW1AJ3Pqw7R)
+<img src="https://drive.google.com/uc?export=view&id=1-atdqLWqW4N1O7H0nepXUjW1AJ3Pqw7R" alt="Calculator Screenshot" width="300"/>
 
 ---
 
