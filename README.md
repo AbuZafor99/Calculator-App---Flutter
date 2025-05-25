@@ -1,7 +1,3 @@
-Here’s a sample README.md file for your Flutter calculator app:
-
-⸻
-
 🧮 My Calculator App
 
 A simple, functional calculator app built with Flutter, capable of performing basic arithmetic operations such as addition, subtraction, multiplication, division, and modulus. It features a clean user interface and supports decimal input, formatted output, and operation history display.
@@ -75,6 +71,3 @@ The app currently calculates one binary operation at a time and does not parse f
 
 This project is open-source and available under the MIT License.
 
-⸻
-
-Let me know if you’d like this saved to a .md file or want to include a GitHub Actions workflow, CI/CD, or app icon setup.
