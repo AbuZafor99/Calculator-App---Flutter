@@ -37,17 +37,6 @@ flutter pub get
 flutter run
 
 
-
-⸻
-
-🛠️ Project Structure
-
-lib/
-├── main.dart               # Main calculator app
-└── widget/
-    └── buildButton.dart    # Custom widget for calculator buttons
-
-
 ⸻
 
 💡 Example Usage
@@ -67,10 +56,9 @@ Expression: 5 + 9 * 2 - 8 / 2 % 2
 
 ⸻
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Abu Zafor
-🔗 GitHub Profile
+[Abu Zafor](https://github.com/AbuZafor99)
 
 ⸻
 
